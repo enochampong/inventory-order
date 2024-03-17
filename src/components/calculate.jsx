@@ -10,10 +10,9 @@ function Calculate (){
     };
     return( 
 <div>
-    <>Item(S): {value}</>
-<button onClick={handleAdd}>+</button>
+'<button onClick={handleAdd}>+</button>
 <button onClick={handleMinus}>-</button>
-
+<>Item(S): {value}</>
 
 </div>
     );
